@@ -33,7 +33,9 @@ const ScavengerPage = ({ accounts, plugin, history, burnerComponents, actions })
         {status.stage === status.numClues && 'Congratulations! You found all the clues!'}
       </div>
 
-      <div>Find clues and <a href="#" onClick={scan}>scan them</a> to unlock the next levels</div>
+      {status.stage !== status.numClues && (
+        <div>Find clues and <a href="#" onClick={scan}>scan them</a> to unlock the next levels</div>
+      )}
     </Page>
   );
 };
