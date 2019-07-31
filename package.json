@@ -1,0 +1,11 @@
+{
+  "name": "scavenger-hunt-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "David Mihal <david@dmihal.com>",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "truffle-hdwallet-provider": "^1.0.15"
+  }
+}
